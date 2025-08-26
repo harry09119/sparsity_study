@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly sadves.Column_PE_Test, Some(19440450-9d49-43a4-a8c0-37eb6b1a0da1), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/harry09119/my_chisel_base/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/harry09119/my_chisel_base/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/test/scala/SADVES/Column_PE_Test.scala:9:7: Column_PE_Test is already defined as class Column_PE_Test[0m
+[0m[[0m[31merror[0m] [0m[0mclass Column_PE_Test extends FlatSpec with ChiselScalatestTester with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 9 s, completed May 24, 2024 5:22:48 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

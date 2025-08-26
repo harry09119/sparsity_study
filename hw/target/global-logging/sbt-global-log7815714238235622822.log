@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly uvp_array.TMP_Test, Some(31abd196-879f-401a-bb5f-abdc9bdfb74f), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/harry09119/my_chisel_base/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/test/scala/UVP/scheduling.scala:208:11: illegal start of simple pattern[0m
+[0m[[0m[31merror[0m] [0m[0m          for (tile <- 0 until tile_num) {[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/test/scala/UVP/scheduling.scala:217:9: '=' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m        }[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Mar 15, 2024 5:50:08 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

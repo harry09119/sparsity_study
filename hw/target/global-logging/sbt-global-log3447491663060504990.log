@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly uvp_array.TMP_Test, Some(099afba8-3adb-424b-9083-36400ce3b0a9), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/harry09119/my_chisel_base/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/test/scala/UVP/tmp.scala:138:30: missing argument list for method apply in object List[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `apply _` or `apply(_)` instead of `apply`.[0m
+[0m[[0m[31merror[0m] [0m[0m        var tile_stall = List[Int].fill(tile_num)(0)//for (t <- 0 until tile_num) yield 0[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Mar 6, 2024 4:41:16 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

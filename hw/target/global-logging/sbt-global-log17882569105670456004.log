@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly my_sa.Adder1_Test, Some(df6808cb-0201-42c4-b993-139e0e12ea7b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/harry09119/chisel/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/chisel/src/test/scala/SA/adder_1st_test.scala:27:36: value zipped is not a member of (List[Int], List[Int], List[Int], List[Int])[0m
+[0m[[0m[31merror[0m] [0m[0m      answer0 = (in0, in1, s0, s1).zipped.map {[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/chisel/src/test/scala/SA/adder_1st_test.scala:29:40: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m          if (sa == sb && sa == 0) a + b // sA[i] == sB[i] == 0 -> C0[i] = A[i] + B[i][0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/chisel/src/test/scala/SA/adder_1st_test.scala:35:36: value zipped is not a member of (List[Int], List[Int], List[Int], List[Int])[0m
+[0m[[0m[31merror[0m] [0m[0m      answer1 = (in0, in1, s0, s1).zipped.map {[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/chisel/src/test/scala/SA/adder_1st_test.scala:37:40: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m          if (sa == sb && sa == 1) a + b // sA[i] == sB[i] == 0 -> C0[i] = A[i] + B[i][0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Mar 8, 2025, 8:41:59 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

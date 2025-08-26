@@ -1,0 +1,53 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly column_combine.BsPE_Test, Some(f736b24c-6875-4c8a-8442-1c3da27c5b96), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBsPE_Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBsPE[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should produce right output *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.PassExceptions: firrtl.passes.CheckInitialization$RefNotInitializedException:  @[column_combine.scala 93:32] : [module BsPE]  Reference macs_0 is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : macs_0.io.Xi <= mux(io.reset, VOID, _macs_0_io_Xi_T)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  @[column_combine.scala 93:32] : [module BsPE]  Reference macs_3 is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : macs_3.io.Xi <= mux(io.reset, VOID, _macs_3_io_Xi_T)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module BsPE]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.outT[1] <= mux(io.reset, VOID, load_tag_1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  @[column_combine.scala 93:32] : [module BsPE]  Reference macs_2 is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : macs_2.io.Xi <= mux(io.reset, VOID, _macs_2_io_Xi_T)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  @[column_combine.scala 93:32] : [module BsPE]  Reference macs_0 is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : macs_0.io.W <= mux(io.reset, VOID, compute_wgt)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module BsPE]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.outB[1] <= mux(io.reset, VOID, load_wgt_1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module BsPE]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.outT[3] <= mux(io.reset, VOID, load_tag_3)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module BsPE]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.outT[0] <= mux(io.reset, VOID, load_tag)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  @[column_combine.scala 93:32] : [module BsPE]  Reference macs_1 is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : macs_1.io.W <= mux(io.reset, VOID, compute_wgt_1)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module BsPE]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.outB[3] <= mux(io.reset, VOID, load_wgt_3)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  @[column_combine.scala 93:32] : [module BsPE]  Reference macs_2 is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : macs_2.io.W <= mux(io.reset, VOID, compute_wgt_2)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module BsPE]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.outB[0] <= mux(io.reset, VOID, load_wgt)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  @[column_combine.scala 93:32] : [module BsPE]  Reference macs_1 is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : macs_1.io.Xi <= mux(io.reset, VOID, _macs_1_io_Xi_T)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  @[column_combine.scala 93:32] : [module BsPE]  Reference macs_3 is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : macs_3.io.W <= mux(io.reset, VOID, compute_wgt_3)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module BsPE]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.outT[2] <= mux(io.reset, VOID, load_tag_2)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.CheckInitialization$RefNotInitializedException:  : [module BsPE]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.outB[2] <= mux(io.reset, VOID, load_wgt_2)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mfirrtl.passes.PassException: 16 errors detected![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 414 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 1, Failed 1, Errors 0, Passed 0[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	column_combine.BsPE_Test[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Feb 19, 2025, 8:31:38 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

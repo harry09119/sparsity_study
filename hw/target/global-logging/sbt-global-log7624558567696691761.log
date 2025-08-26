@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(runMain eureka_new.Eureka_new_To_Verilog, Some(c6c485a6-fb1f-4717-8f12-f933c1f3c64f), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / runMain[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/harry09119/chisel/target/scala-2.12/classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 4 s, completed Mar 18, 2025, 6:28:06 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

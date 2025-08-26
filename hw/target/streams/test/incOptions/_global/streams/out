@@ -1,0 +1,43 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/harry09119/sparse_study/hw/target/scala-2.12/test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MAC_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Adder1_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PEStack_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Head_PE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PErow_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AVP_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BaseTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Column_PE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PE_Test2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	General_PE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Group_PE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BsPE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TMP_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PEGroup_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Adder2_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HeadPE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MAC_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Adder1_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PEStack_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Head_PE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PErow_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AVP_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BaseTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Column_PE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PE_Test2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	General_PE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Group_PE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BsPE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TMP_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PEGroup_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Adder2_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HeadPE_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	OS_SA_Test.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BaseTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/harry09119/sparse_study/hw/target/scala-2.12/test-classes.bak[0m

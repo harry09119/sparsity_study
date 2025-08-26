@@ -1,0 +1,60 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly s2ta_like.MACTest, Some(b37dbbe6-70b1-43bb-af08-02a749a7f927), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/harry09119/my_chisel_base/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/custum_array.scala:62:5: value otehrwise is not a member of chisel3.WhenContext[0m
+[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value otehrwise'?[0m
+[0m[[0m[31merror[0m] [0m[0m  }.otehrwise {[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/custum_array.scala:67:13: value dstate is not a member of chisel3.Bundle{val c_in: chisel3.Vec[chisel3.UInt]; val r_in: chisel3.UInt; val o_in: chisel3.UInt; val o_out: chisel3.UInt; val bit: chisel3.UInt; val buffer: chisel3.Bool; val c_state: chisel3.UInt; val d_state: chisel3.UInt; val debug: chisel3.UInt}[0m
+[0m[[0m[31merror[0m] [0m[0m  switch(io.dstate) {[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:29:7: not found: value v_reg[0m
+[0m[[0m[31merror[0m] [0m[0m      v_reg := v_reg[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:29:16: not found: value v_reg[0m
+[0m[[0m[31merror[0m] [0m[0m      v_reg := v_reg[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:30:7: not found: value h_reg[0m
+[0m[[0m[31merror[0m] [0m[0m      h_reg := h_reg[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:30:16: not found: value h_reg[0m
+[0m[[0m[31merror[0m] [0m[0m      h_reg := h_reg[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:31:7: not found: value s_reg[0m
+[0m[[0m[31merror[0m] [0m[0m      s_reg := s_reg[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:31:16: not found: value s_reg[0m
+[0m[[0m[31merror[0m] [0m[0m      s_reg := s_reg[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:34:7: not found: value v_reg[0m
+[0m[[0m[31merror[0m] [0m[0m      v_reg := 0.U[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:35:7: not found: value h_reg[0m
+[0m[[0m[31merror[0m] [0m[0m      h_reg := 0.U[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:36:7: not found: value s_reg[0m
+[0m[[0m[31merror[0m] [0m[0m      s_reg := 0.U[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:44:19: value o_in is not a member of chisel3.Bundle{val c_in: chisel3.UInt; val r_in: chisel3.UInt; val c_out: chisel3.UInt; val r_out: chisel3.UInt; val o_out: chisel3.UInt; val c_state: chisel3.UInt; val d_state: chisel3.UInt; val debug: chisel3.UInt}[0m
+[0m[[0m[31merror[0m] [0m[0m      o_reg := io.o_in[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:50:13: value dstate is not a member of chisel3.Bundle{val c_in: chisel3.UInt; val r_in: chisel3.UInt; val c_out: chisel3.UInt; val r_out: chisel3.UInt; val o_out: chisel3.UInt; val c_state: chisel3.UInt; val d_state: chisel3.UInt; val debug: chisel3.UInt}[0m
+[0m[[0m[31merror[0m] [0m[0m  switch(io.dstate) {[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:109:20: value o_in is not a member of chisel3.Bundle{val c_in: chisel3.UInt; val r_in: chisel3.UInt; val c_out: chisel3.UInt; val r_out: chisel3.UInt; val o_out: chisel3.UInt; val c_state: chisel3.UInt; val d_state: chisel3.UInt; val debug: chisel3.UInt}[0m
+[0m[[0m[31merror[0m] [0m[0m      pes(i)(j).io.o_in := pes(i)(j - 1).io.o_out[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:120:36: value c_state is not a member of chisel3.Bundle{val r_in: chisel3.Vec[chisel3.UInt]; val c_in: chisel3.Vec[chisel3.UInt]; val o_out: chisel3.Vec[chisel3.UInt]; val c_pestate: chisel3.UInt; val c_astate: chisel3.UInt; val debug: chisel3.UInt}[0m
+[0m[[0m[31merror[0m] [0m[0m        pes(i)(j).io.c_state := io.c_state[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:121:36: value d_state is not a member of chisel3.Bundle{val r_in: chisel3.Vec[chisel3.UInt]; val c_in: chisel3.Vec[chisel3.UInt]; val o_out: chisel3.Vec[chisel3.UInt]; val c_pestate: chisel3.UInt; val c_astate: chisel3.UInt; val debug: chisel3.UInt}[0m
+[0m[[0m[31merror[0m] [0m[0m        pes(i)(j).io.d_state := io.d_state[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/main/scala/UVP/systolic_array.scala:122:37: value debug is not a member of systolic.DensePE[0m
+[0m[[0m[31merror[0m] [0m[0m        io.debug(i)(j) := pes(i)(j).debug[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m17 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jan 22, 2024 5:03:50 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly my_sa.PEStack_Test, Some(45e1ae2d-3aa8-4089-8890-6d2c0267f6b0), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/harry09119/chisel/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/harry09119/chisel/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/chisel/src/test/scala/SA/my_hw_test/pestack_test.scala:79:9: value update is not a member of List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m        out_data(0) = c.io.outC(0).peek().litValue.toInt[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/chisel/src/test/scala/SA/my_hw_test/pestack_test.scala:80:9: value update is not a member of List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m        out_data(1) = c.io.outC(1).peek().litValue.toInt[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Mar 8, 2025, 11:05:28 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

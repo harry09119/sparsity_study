@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(runMain eureka.Eureka_To_Verilog, Some(7beb370c-155d-4ad2-9ca5-aa80832dd5b3), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / runMain[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0mNonzero exit code: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrunMain[0m) Nonzero exit code: 1[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Mar 11, 2025, 5:25:05 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

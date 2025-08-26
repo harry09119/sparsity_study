@@ -1,0 +1,43 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly uvp_array.PEGroup_Test, Some(01b550d1-fba1-4643-af07-4379ad4b156e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/harry09119/my_chisel_base/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPEGroup_Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHeadPE[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should produce right output *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  chisel3.internal.ChiselException: Exception thrown when elaborating ChiselGeneratorAnnotation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.stage.ChiselGeneratorAnnotation.elaborate(ChiselAnnotations.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.stage.phases.Elaborate.$anonfun$transform$1(Elaborate.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.flatMap(List.scala:366)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.stage.phases.Elaborate.transform(Elaborate.scala:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.backends.treadle.TreadleExecutive$.start(TreadleExecutive.scala:35)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.defaults.package$.createDefaultTester(defaults.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.ChiselScalatestTester$TestBuilder.apply(ChiselScalatestTester.scala:33)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at uvp_array.PEGroup_Test.$anonfun$new$1(PEGroup_Test.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Cause: java.lang.IndexOutOfBoundsException: 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Vector.checkRangeConvert(Vector.scala:131)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Vector.apply(Vector.scala:122)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at uvp_array.PEGroup.$anonfun$new$75(my_array.scala:175)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at uvp_array.PEGroup.<init>(my_array.scala:153)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at uvp_array.PEGroup_Test.$anonfun$new$2(PEGroup_Test.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.Module$.do_apply(Module.scala:54)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.stage.ChiselGeneratorAnnotation.$anonfun$elaborate$1(ChiselAnnotations.scala:60)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.$anonfun$build$1(Builder.scala:642)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 657 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 1, Failed 1, Errors 0, Passed 0[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	uvp_array.PEGroup_Test[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Feb 26, 2024 7:40:00 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(:q, Some(0d1967a2-201f-4114-95c0-a16899497216), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mExpected symbol[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: :[0m
+[0m[[0m[31merror[0m] [0m[0m:q[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

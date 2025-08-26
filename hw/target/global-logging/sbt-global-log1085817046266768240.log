@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(runMain os_sa.OS_SA_To_Verilog, Some(131ae010-72f8-44d9-9493-7b2e4ff657db), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / runMain[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to /home/harry09119/sparse_study/hw/target/scala-2.12/classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 14 s, completed Aug 26, 2025, 3:25:31 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

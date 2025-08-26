@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(runMain sparse_sa.Sparse_SA_Main, Some(008c688a-67a5-4d4d-b984-f727697d6ec7), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / runMain[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /home/harry09119/chisel/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/chisel/src/main/scala/SA/scatter.scala:1:1: unclosed comment[0m
+[0m[[0m[31merror[0m] [0m[0m/*[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Feb 25, 2025, 1:35:11 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

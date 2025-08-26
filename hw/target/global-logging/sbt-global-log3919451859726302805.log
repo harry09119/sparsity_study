@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly s2ta_like.RegTest, Some(c6eecc19-a926-4b97-80df-e9af9050510e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/harry09119/my_chisel_base/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/harry09119/my_chisel_base/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/test/scala/s2ta_like/reg_test.scala:32:34: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.Bool[0m
+[0m[[0m[31merror[0m] [0m[0m          c.io.c1_in(i).poke(InA1(i))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/test/scala/s2ta_like/reg_test.scala:33:37: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.Bool[0m
+[0m[[0m[31merror[0m] [0m[0m          c.io.c2_in(i).poke(InB(i).U)[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/test/scala/s2ta_like/reg_test.scala:42:34: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.Vec[chisel3.UInt][0m
+[0m[[0m[31merror[0m] [0m[0m          c.io.r_in.poke(InA2(i).U)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jan 22, 2024 6:09:25 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

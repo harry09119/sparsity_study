@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly my_sa.PEStack_Test, Some(97d5bacd-02b2-486f-8cfa-82aba2c74faa), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/harry09119/chisel/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/chisel/src/main/scala/SA/scatter.scala:95:24: overriding value reset in class MultiIOModule of type chisel3.Reset;[0m
+[0m[[0m[31merror[0m] [0m[0m value reset cannot override final member[0m
+[0m[[0m[31merror[0m] [0m[0m  val reset = (io.ctrl === 0.U)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Mar 8, 2025, 11:04:27 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

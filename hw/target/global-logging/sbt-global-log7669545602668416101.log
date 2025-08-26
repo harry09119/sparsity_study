@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(4e0dcc99-aa00-47e1-b675-9a919bd352a3), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdating [0m
+[0m[[0m[0minfo[0m] [0m[0mResolved  dependencies[0m
+[0m[[0m[33mwarn[0m] [0m[0mThere may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/harry09119/my_chisel_base/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/harry09119/my_chisel_base/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBaseTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBase[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce right output[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 583 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 1, Failed 0, Errors 0, Passed 1[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 9 s, completed Jan 11, 2024 4:26:14 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly column_combine.BSPE_Test, Some(a11520bb-76bf-4cf6-8d3f-973d0a2eeaed), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 17 Scala sources to /home/harry09119/chisel/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 23 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 0, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33mNo tests were executed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 0, Failed 0, Errors 0, Passed 0[0m
+[0m[[0m[0minfo[0m] [0m[0mNo tests to run for Test / testOnly[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 5 s, completed Feb 19, 2025, 8:31:03 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

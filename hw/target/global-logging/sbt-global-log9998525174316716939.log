@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(runMain my_sa_light.Mine_To_Verilog, Some(9549e000-0b76-4b39-af2c-4277b8e55b3d), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / runMain[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to /home/harry09119/chisel/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/harry09119/chisel/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/chisel/src/main/scala/SA/sa_new.scala:6:7: PE is already defined as class PE[0m
+[0m[[0m[31merror[0m] [0m[0mclass PE(val width: Int) extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/chisel/src/main/scala/SA/sa_new.scala:26:7: PErow is already defined as class PErow[0m
+[0m[[0m[31merror[0m] [0m[0mclass PErow(val rowL: Int, val width: Int) extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/chisel/src/main/scala/SA/sa_new.scala:57:7: Tile is already defined as class Tile[0m
+[0m[[0m[31merror[0m] [0m[0mclass Tile(val rowL: Int, val colL: Int, val width: Int) extends Module {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/chisel/src/main/scala/SA/sa_new.scala:87:8: Tile is already defined as object Tile[0m
+[0m[[0m[31merror[0m] [0m[0mobject Tile {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/chisel/src/main/scala/SA/sa_new.scala:135:8: General_To_Verilog is already defined as object General_To_Verilog[0m
+[0m[[0m[31merror[0m] [0m[0mobject General_To_Verilog extends App {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 10 s, completed Mar 19, 2025, 8:27:10 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

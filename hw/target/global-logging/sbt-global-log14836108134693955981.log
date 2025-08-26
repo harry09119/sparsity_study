@@ -1,0 +1,38 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(runMain os_sa.OS_SA_To_Verilog, Some(826b1796-6cad-4979-9abb-a49e2ea3c158), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / runMain[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to /home/harry09119/sparse_study/hw/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/sparse_study/hw/src/main/scala/SA/is_sa.scala:29:30: not found: value MUX[0m
+[0m[[0m[31merror[0m] [0m[0m  wgt0 := Mux(io.reset, 0.U, MUX(io.inS, io.inB, wgt0))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/sparse_study/hw/src/main/scala/SA/is_sa.scala:30:30: not found: value MUX[0m
+[0m[[0m[31merror[0m] [0m[0m  wgt1 := Mux(io.reset, 0.U, MUX(io.inS, wgt1, io.inB))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/sparse_study/hw/src/main/scala/SA/is_sa.scala:32:14: not found: value MUX[0m
+[0m[[0m[31merror[0m] [0m[0m  io.outB := MUX(io.inS, wgt0, wgt1)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/sparse_study/hw/src/main/scala/SA/is_sa.scala:35:22: not found: value MUX[0m
+[0m[[0m[31merror[0m] [0m[0m  val mul = io.inA * MUX(io.inS, wgt1, wgt0)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/sparse_study/hw/src/main/scala/SA/is_sa.scala:43:16: not found: value Reginit[0m
+[0m[[0m[31merror[0m] [0m[0m  val switch = Reginit(false.B)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/sparse_study/hw/src/main/scala/SA/os_sa.scala:41:16: not found: value Reginit[0m
+[0m[[0m[31merror[0m] [0m[0m  val switch = Reginit(false.B)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/sparse_study/hw/src/main/scala/SA/sp_os_sa.scala:49:16: not found: value Reginit[0m
+[0m[[0m[31merror[0m] [0m[0m  val switch = Reginit(false.B)[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/sparse_study/hw/src/main/scala/SA/sp_os_sa.scala:71:37: not enough arguments for constructor PE: (width: Int, mux: Int)sp_os_sa.PE.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter mux.[0m
+[0m[[0m[31merror[0m] [0m[0m  val perow = Seq.fill(rowL)(Module(new PE(width)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/sparse_study/hw/src/main/scala/SA/sp_os_sa.scala:117:36: not enough arguments for constructor PErow: (rowL: Int, width: Int, mux: Int)sp_os_sa.PErow.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter mux.[0m
+[0m[[0m[31merror[0m] [0m[0m  val tile = Seq.fill(colL)(Module(new PErow(rowL, width)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 5 s, completed Aug 26, 2025, 3:19:50 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

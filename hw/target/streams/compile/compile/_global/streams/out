@@ -1,0 +1,9 @@
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/sparse_study/hw/src/main/scala/SA/sp_os_sa.scala:71:37: not enough arguments for constructor PE: (width: Int, mux: Int)sp_os_sa.PE.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter mux.[0m
+[0m[[0m[31merror[0m] [0m[0m  val perow = Seq.fill(rowL)(Module(new PE(width)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/sparse_study/hw/src/main/scala/SA/sp_os_sa.scala:117:36: not enough arguments for constructor PErow: (rowL: Int, width: Int, mux: Int)sp_os_sa.PErow.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter mux.[0m
+[0m[[0m[31merror[0m] [0m[0m  val tile = Seq.fill(colL)(Module(new PErow(rowL, width)))[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

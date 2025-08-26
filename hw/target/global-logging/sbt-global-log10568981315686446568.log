@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(runMain sa_light.Mine_To_Verilog, Some(50136e5e-5f14-44a0-ac5f-96719eba65ca), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / runMain[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0mNonzero exit code: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrunMain[0m) Nonzero exit code: 1[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Mar 19, 2025, 8:30:51 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

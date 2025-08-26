@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly os_sa.OS_SA_Test, Some(2dbbf1cc-4e71-4e98-a88d-f63ee413ec0d), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/harry09119/sparse_study/hw/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/sparse_study/hw/src/test/scala/SA_test/os_pe_test.scala:44:34: not found: value SwichArray[0m
+[0m[[0m[31merror[0m] [0m[0m        val swt_sys = ToSystolic(SwichArray(n,k+s,k))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/sparse_study/hw/src/test/scala/SA_test/os_pe_test.scala:75:34: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.Bool[0m
+[0m[[0m[31merror[0m] [0m[0m            c.io.inS(row).poke(0.U)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Aug 26, 2025, 4:37:09 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

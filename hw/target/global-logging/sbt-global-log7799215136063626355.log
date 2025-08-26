@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly uvp_array.TMP_Test, Some(fea2a04e-101b-402f-9ad6-f2c15d050a96), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTMP_Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHeadPE[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should produce right output[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 542 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 1, Failed 0, Errors 0, Passed 1[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed Mar 6, 2024 3:43:43 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

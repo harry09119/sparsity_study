@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly s2ta_like.RegTest, Some(9ca4bd12-bc5a-4bdd-ba3b-96d7bfc38a96), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/harry09119/my_chisel_base/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/test/scala/s2ta_like/reg_test.scala:32:38: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.Bool[0m
+[0m[[0m[31merror[0m] [0m[0m          c.io.c1_in(i).poke(InA1(i).U)[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/harry09119/my_chisel_base/src/test/scala/s2ta_like/reg_test.scala:33:37: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.Bool[0m
+[0m[[0m[31merror[0m] [0m[0m          c.io.c2_in(i).poke(InB(i).U)[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed Jan 22, 2024 6:10:43 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
